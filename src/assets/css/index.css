@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fcf5e7;
+  color: #5e5343;
+  font-family: Arial, sans-serif;
+}
+
+.rose {
+  background: #d6a494;
+}
+
+.font-moserrat{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
