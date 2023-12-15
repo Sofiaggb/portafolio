@@ -1,5 +1,5 @@
-import html from '../assets/images/tecnologias/html.png'
-import css from '../assets/images/tecnologias/css.png'
+import htmlCss from '../assets/images/tecnologias/html-css.png'
+import tailwind from '../assets/images/tecnologias/tailwind.png'
 import js from '../assets/images/tecnologias/js.png'
 import react from '../assets/images/tecnologias/react.png'
 import nodejs from '../assets/images/tecnologias/nodejs.png'
@@ -8,8 +8,8 @@ import mongodb from '../assets/images/tecnologias/mongodb.png'
 export default function CardsTecnologias() {
 
     const tecnologias = [
-        { title: "HTML", description: "Lenguaje de Marcado de Hipertexto", image: html },
-        { title: "CSS", description: " Lenguaje de hojas de estilo en cascada", image: css },
+        { title: "HTML y CSS", description: "Lenguaje de Marcado de Hipertexto y Lenguaje de Hojas de Estilo en Cascada", image: htmlCss },
+        { title: "Tailwind", description: "Framework de CSS de código abierto​ para el diseño de páginas web", image: tailwind },
         { title: "JavaScript", description: " Lenguaje de programación  para la creación contenidos dinámicos en páginas web", image: js },
         { title: "React", description: " Librería JavaScript de código abierto, basada en componentes.", image: react },
         { title: "Node.js", description: "Entorno en tiempo de ejecución multiplataforma", image: nodejs },

@@ -31,13 +31,13 @@ export default function CardsProyects() {
         <>
             {proyectos.map((proyecto, i) => (
 
-                <div key={i} className="flex flex-col mx-6 text-center items-center rounded overflow-hidden ">
-                    <a href={proyecto.link} className='hover:mx-1'>
-                        <img className="w-full h-52 rounded object-cover" src={proyecto.image} alt={proyecto.title} />
+                <div key={i} className="flex flex-col m-6 text-center items-center rounded overflow-hidden ">
+                    <a href={proyecto.link} className='hover:mx-1 '>
+                        <img className="w-full h-52 hover:h-60 rounded object-cover" src={proyecto.image} alt={proyecto.title} />
 
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2">{proyecto.title}</div>
-                            <p className=" text-sm">
+                            <p className=" text-sm max-lg:w-96">
                                 {proyecto.description}
                             </p>
                         </div>
