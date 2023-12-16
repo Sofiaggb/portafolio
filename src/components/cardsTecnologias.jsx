@@ -19,8 +19,8 @@ export default function CardsTecnologias() {
     return (
         <>
             {tecnologias.map((tec, i) => (
-                <div key={i} className="flex flex-col mx-6 text-center items-center  ">
-                    <div className="w-28 h-28 rounded-full rose">
+                <div key={i} className="flex flex-col mx-6 max-[400px]:mx-3 text-center items-center  ">
+                    <div className="w-28 max-[400px]:w-20 h-28 max-[400px]:h-20 rounded-full rose">
                         <img className="w-full h-full object-cover" src={tec.image} alt={tec.title} />
                     </div>
                     <div className="p-4 md:p-5">
