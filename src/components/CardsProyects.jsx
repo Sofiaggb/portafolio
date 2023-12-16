@@ -7,7 +7,7 @@ export default function CardsProyects() {
     const proyectos = [
         {
             title: 'Recetario',
-            description: 'Recetario de cocina aquí puedes consultar, almacenar, editar y borrar tu receta',
+            description: 'Recetario de cocina, aquí puedes consultar, almacenar, editar y borrar tu receta.',
             image: recetario,
             link: 'https://frontend-recetario.onrender.com',
             git: 'https://github.com/Sofiaggb/RECETARIO'
@@ -15,7 +15,7 @@ export default function CardsProyects() {
 
         {
             title: 'Web de Servicios',
-            description: 'Página web que ofrece servicios de arreglo y mantenimiento de casas o apartamentos.',
+            description: 'Selecciona el idioma (inglés o español) y realiza tu requerimiento a través de un formulario',
             image: servicios,
             link: 'https://sofiaggb.github.io/usabuilders/',
             git: 'https://github.com/Sofiaggb/usabuilders'
@@ -23,7 +23,7 @@ export default function CardsProyects() {
 
         {
             title: 'Web Informativa',
-            description: 'Página web informativa sobre la institucion CAIPA que trata sobre el espectro autista',
+            description: 'CAIPA Táchira, Institución que atiende el Espectro Autista',
             image: informativa,
             link: 'https://sofiaggb.github.io/CAIPA/',
             git: 'https://github.com/Sofiaggb/CAIPA'
