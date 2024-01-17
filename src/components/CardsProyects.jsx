@@ -1,29 +1,33 @@
 import recetario from '../assets/images/proyectos/recetario.jpg'
 import servicios from '../assets/images/proyectos/usabuilders.jpg'
 import informativa from '../assets/images/proyectos/caipa.jpg'
+import { useTranslation } from 'react-i18next'
 
 
 export default function CardsProyects() {
+
+    const {t}= useTranslation()
+
     const proyectos = [
         {
-            title: 'Recetario',
-            description: 'Recetario de cocina, aquí puedes consultar, almacenar, editar y borrar tu receta.',
+            title: t("projects.project1"),
+            description: t("projects.description1"),
             image: recetario,
             link: 'https://frontend-recetario.onrender.com',
             git: 'https://github.com/Sofiaggb/RECETARIO'
         },
 
         {
-            title: 'Web de Servicios',
-            description: 'Selecciona el idioma (inglés o español) y realiza tu requerimiento a través de un formulario',
+            title: t("projects.project2"),
+            description: t("projects.description2"),
             image: servicios,
             link: 'https://sofiaggb.github.io/usabuilders/',
             git: 'https://github.com/Sofiaggb/usabuilders'
         },
 
         {
-            title: 'Web Informativa',
-            description: 'CAIPA Táchira, Institución que atiende el Espectro Autista',
+            title: t("projects.project3"),
+            description: t("projects.description3"),
             image: informativa,
             link: 'https://sofiaggb.github.io/CAIPA/',
             git: 'https://github.com/Sofiaggb/CAIPA'
@@ -50,7 +54,7 @@ export default function CardsProyects() {
                         className="flex rounded border border-rose-300 rose px-6 py-1 text-sm font-medium text-white hover:bg-transparent hover:text-rose-400 focus:outline-none focus:ring active:text-rose-400"
                         href={proyecto.git}
                     >
-                       <i className='bx bx-code-alt text-2xl' ></i> <p className='m-auto ml-1' >Código</p>
+                       <i className='bx bx-code-alt text-2xl' ></i> <p className='m-auto ml-1' >{t("projects.code")}</p>
                     </a>
                 </div>
 

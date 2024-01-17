@@ -4,16 +4,18 @@ import js from '../assets/images/tecnologias/js.png'
 import react from '../assets/images/tecnologias/react.png'
 import nodejs from '../assets/images/tecnologias/nodejs.png'
 import mongodb from '../assets/images/tecnologias/mongodb.png'
+import { useTranslation } from 'react-i18next'
 
 export default function CardsTecnologias() {
+    const {t} = useTranslation();
 
     const tecnologias = [
-        { title: "HTML y CSS", description: "Lenguaje de Marcado de Hipertexto y Lenguaje de Hojas de Estilo en Cascada", image: htmlCss },
-        { title: "Tailwind", description: "Framework de CSS de código abierto​ para el diseño de páginas web", image: tailwind },
-        { title: "JavaScript", description: " Lenguaje de programación  para la creación contenidos dinámicos en páginas web", image: js },
-        { title: "React", description: " Librería JavaScript de código abierto, basada en componentes.", image: react },
-        { title: "Node.js", description: "Entorno en tiempo de ejecución multiplataforma", image: nodejs },
-        { title: "MongoDB", description: "Sistema de base de datos NoSQL", image: mongodb },
+        { title: "HTML y CSS", description: t("tecnologias.htmlCss"), image: htmlCss },
+        { title: "Tailwind", description: t("tecnologias.tailwind"), image: tailwind },
+        { title: "JavaScript", description: t("tecnologias.js"), image: js },
+        { title: "React", description: t("tecnologias.react"), image: react },
+        { title: "Node.js", description: t("tecnologias.nodejs"), image: nodejs },
+        { title: "MongoDB", description: t("tecnologias.mongodb"), image: mongodb },
     ]
 
     return (
