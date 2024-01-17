@@ -1,0 +1,29 @@
+{
+    "home":{
+    "description": "Soy una desarrolladora junior independiente enfocada en el desarrollo de front-end y back-end utilizando React y Node.js."
+},
+
+    "tecnologias":{
+        "title": "Tecnologías que manejo",
+        "htmlCss": "Lenguaje de Marcado de Hipertexto y Lenguaje de Hojas de Estilo en Cascada",
+        "tailwind": "Framework de CSS de código abierto​ para el diseño de páginas web",
+        "js": "Lenguaje de programación  para la creación contenidos dinámicos en páginas web",
+        "react": "Librería JavaScript de código abierto, basada en componentes",
+        "nodejs": "Entorno en tiempo de ejecución multiplataforma",
+        "mongodb": "Sistema de base de datos NoSQL"
+    },
+
+    "projects":{
+        "title": "Proyectos",
+        "description": "Estos son mis proyectos, si deseas puedes acceder al código fuente.",
+        "project1": "Recetario",
+        "description1": "Recetario de cocina, aquí puedes consultar, almacenar, editar y borrar tu receta.",
+        "project2": "Web de Servicios",
+        "description2": "Selecciona el idioma (inglés o español) y realiza tu requerimiento a través de un formulario",
+        "project3": "Web Informativa",
+        "description3": "CAIPA Táchira, Institución que atiende el Espectro Autista",
+        "code": "Código"
+
+    }
+
+}

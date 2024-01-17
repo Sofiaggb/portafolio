@@ -1,0 +1,25 @@
+{
+    "home":{
+    "description": "I am a freelance junior developer focused on front-end and back-end development using React and Node.js."
+},
+    "tecnologias":{
+        "title": "Technologies I manage",
+        "htmlCss":"Hypertext Markup Language and Cascading Style Sheet Language",
+        "tailwind": "Open source CSS framework for website design",
+        "js": "Programming language for the creation of dynamic contents in websites.",
+        "react": "Open source, component-based JavaScript library",
+        "nodejs": "Multiplatform runtime environment",
+        "mongodb": "NoSQL database system"
+},
+"projects":{
+    "title": "Projects",
+    "description": "These are my projects, if you wish you can access the source code.",
+    "project1": "Recipe Book",
+    "description1": "Cookbook, here you can consult, store, edit and delete your recipe.",
+    "project2": "Web Services",
+    "description2": "Select the language (English or Spanish) and make your request through a form.",
+    "project3": "Informative Web",
+    "description3": "CAIPA Táchira, Institution that attends to the Autistic Spectrum.",
+    "code": "Code"
+}
+}
