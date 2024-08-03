@@ -1,25 +1,36 @@
 {
     "home":{
-    "description": "I am a web developer focused on front-end and back-end development using React y Node.js."
+    "aboutMe":  "const AboutMe= {\n  title: \"WEB DEVELOPER\",\n  description: \"I am a web developer focused on front-end and back-end development\",\n  softSkills: [\"problem-solving\", \"communication\", \"teamwork\", \"adaptability\", \"critical thinking\", \"time management\"],\n  hobbies: [\"dance\", \"reading\", \"crafts\"],\n  contact: {\n    email: \"sofiaggb@gmail.com\",\n    github: \"github.com/Sofiaggb\"\n  }\n};"
 },
     "tecnologias":{
         "title": "Technologies I manage",
-        "htmlCss":"Hypertext Markup Language and Cascading Style Sheet Language",
-        "tailwind": "Open source CSS framework for website design",
-        "js": "Programming language for the creation of dynamic contents in websites.",
-        "react": "Open source, component-based JavaScript library",
-        "nodejs": "Multiplatform runtime environment",
-        "mongodb": "NoSQL database system"
+        "db": "Databases",
+        "programing": "Programming languages",
+        "versions": "Version Managers"
 },
 "projects":{
     "title": "Projects",
-    "description": "These are my projects, if you wish you can access the source code.",
-    "project1": "Recipe Book",
-    "description1": "Cookbook, here you can consult, store, edit and delete your recipe.",
-    "project2": "Web Services",
-    "description2": "Select the language (English or Spanish) and make your request through a form.",
-    "project3": "Informative Web",
-    "description3": "CAIPA Táchira, Institution that attends to the Autistic Spectrum.",
-    "code": "Code"
+
+    "recipeBook": "Recipe Book",
+    "descriptionRecipeBook": "Cookbook, here you can consult, store, edit and delete your recipe.",
+    
+    "deskApp": "Desktop App",
+    "descriptionDeskApp": "App for the storage of existing invoices, manages 2 user levels",
+
+    "service": "Web Services",
+    "descriptionService": "Service Company, select the language (English or Spanish) and make your request through a form.",
+    
+    "caipa": "Informative Web",
+    "descriptionCaipa": "CAIPA Táchira, Institution that attends to the Autistic Spectrum.",
+    
+    "amazonCopy": "Amazon Home Page",
+    "descriptionAmazonCopy": "Recreation of Amazon home page, you can add products to cart",
+    
+    "bazaar":"Pet Store",
+    "descriptionBazaar":"Login with google or github, add products to cart and purchase them",
+
+    "code": "Code",
+    "view": "View",
+    "download": "download"
 }
 }

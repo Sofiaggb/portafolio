@@ -1,28 +1,39 @@
 {
     "home":{
-    "description": "Soy una desarrolladora web enfocada en el desarrollo de front-end y back-end utilizando React y Node.js."
-},
+        "aboutMe": "const SobreMi= {\n  titulo: \"DESARROLLADORA WEB\",\n  descripcion: \"Soy una desarrolladora web enfocada en el desarrollo de front-end y back-end\",\n  habilidadesBlandas: [\"resolución de problemas\", \"comunicación\", \"trabajo en equipo\", \"adaptabilidad\", \"pensamiento crítico\", \"gestión del tiempo\"],\n  hobbies: [\"bailar\", \"leer\", \"manualidades\"],\n  contactos: {\n    email: \"sofiaggb@gmail.com\",\n    github: \"github.com/Sofiaggb\"\n  }\n};"
+    },
 
     "tecnologias":{
         "title": "Tecnologías que manejo",
-        "htmlCss": "Lenguaje de Marcado de Hipertexto y Lenguaje de Hojas de Estilo en Cascada",
-        "tailwind": "Framework de CSS de código abierto​ para el diseño de páginas web",
-        "js": "Lenguaje de programación  para la creación contenidos dinámicos en páginas web",
-        "react": "Librería JavaScript de código abierto, basada en componentes",
-        "nodejs": "Entorno en tiempo de ejecución multiplataforma",
-        "mongodb": "Sistema de base de datos NoSQL"
+        "db": "Bases de Datos",
+        "programing": "Lenguajes de Programación",
+        "versions": "Gestores de Versiones"
     },
 
     "projects":{
         "title": "Proyectos",
-        "description": "Estos son mis proyectos, si deseas puedes acceder al código fuente.",
-        "project1": "Recetario",
-        "description1": "Recetario de cocina, aquí puedes consultar, almacenar, editar y borrar tu receta.",
-        "project2": "Web de Servicios",
-        "description2": "Selecciona el idioma (inglés o español) y realiza tu requerimiento a través de un formulario",
-        "project3": "Web Informativa",
-        "description3": "CAIPA Táchira, Institución que atiende el Espectro Autista",
-        "code": "Código"
+
+        "recipeBook": "Recetario",
+        "descriptionRecipeBook": "Recetario de cocina, aquí puedes consultar, almacenar, editar y borrar tu receta.",
+        
+        "deskApp": "App de Escritorio",
+        "descriptionDeskApp": "App para el almacenamiento de las facturas existentes, maneja 2 niveles de usuario",
+
+        "service": "Web de Servicios",
+        "descriptionService": "Empresa de servicios, selecciona el idioma (inglés o español) y realiza tu requerimiento a través de un formulario",
+        
+        "caipa": "Web Informativa",
+        "descriptionCaipa": "CAIPA Táchira, Institución que atiende el Espectro Autista",
+
+        "amazonCopy": "Pagina de Inicio de Amazon",
+        "descriptionAmazonCopy":"Recreacion de la pagina principal de Amazon, se pueden agregar productos al carrito",
+        
+        "bazaar":"Tienda para Mascotas",
+        "descriptionBazaar":"Inicia session con google o github, agrega productos al carrito y cómpralos",
+
+        "code": "Código",
+        "view": "Vista",
+        "download": "descargar"
 
     }
 
