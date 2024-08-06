@@ -24,7 +24,7 @@ const About = () => {
           t("home.aboutMe"),
         ]}
         typeSpeed={40}
-        backSpeed={4000}
+        backSpeed={40000}
         loop
       />
   </div>

@@ -44,10 +44,10 @@ export default function CardsTecnologias() {
 
     const renderTecnologias = (tecnologias, color) => (
         tecnologias.map((tec, i) => (
-            <div key={i} className="flex flex-col mx-1 max-[400px]:mx-3 text-center 
+            <div key={i} className="flex flex-col mx-1  text-center 
             items-center justify-center  ">
                 <div className={`flex justify-center items-center text-4xl text-red-50
-                 w-14 max-[400px]:w-20 h-14 max-[400px]:h-20 rounded-full ${color}`}>
+                 w-14  h-14 rounded-full ${color}`}>
                     {tec.image}
                 </div>
                 <div className="p-2 ">
@@ -61,7 +61,7 @@ export default function CardsTecnologias() {
 
     return (
         <>
-            <div className="flex">
+            <div className="md:flex">
                 <div className="flex flex-col m-4 text-center">
                     <h2 className="text-base font-bold">Frontend</h2>
                     <div className="flex flex-wrap justify-center">
@@ -75,7 +75,7 @@ export default function CardsTecnologias() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center">
+            <div className="md:flex justify-center">
                 <div className="flex flex-col m-4 text-center">
                     <h2 className="text-base font-bold">{t("tecnologias.db")}</h2>
                     <div className="flex flex-wrap justify-center">
