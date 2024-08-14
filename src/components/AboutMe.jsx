@@ -1,4 +1,3 @@
-// import Typed from 'react-typed';
 import { ReactTyped } from 'react-typed';
 import { useTranslation } from 'react-i18next';
 

@@ -1,36 +1,53 @@
 {
     "home":{
-    "aboutMe":  "const AboutMe= {\n  title: \"WEB DEVELOPER\",\n  description: \"I am a web developer focused on front-end and back-end development\",\n  softSkills: [\"problem-solving\", \"communication\", \"teamwork\", \"adaptability\", \"critical thinking\", \"time management\"],\n  hobbies: [\"dance\", \"reading\", \"crafts\"],\n  contact: {\n    email: \"sofiaggb@gmail.com\",\n    github: \"github.com/Sofiaggb\"\n  }\n};"
-},
+        "aboutMe":  "const AboutMe= {\n  title: \"WEB DEVELOPER\",\n  description: \"I am a web developer focused on front-end and back-end development\",\n  softSkills: [\"problem-solving\", \"communication\", \"teamwork\", \"adaptability\", \"critical thinking\", \"time management\"],\n  hobbies: [\"dance\", \"reading\", \"crafts\"],\n  contact: {\n    email: \"sofiaggb@gmail.com\",\n    github: \"github.com/Sofiaggb\"\n  }\n};"
+    },
+
     "tecnologias":{
         "title": "Technologies I manage",
         "db": "Databases",
         "programing": "Programming languages",
         "versions": "Version Managers"
-},
-"projects":{
-    "title": "Projects",
+    },
 
-    "recipeBook": "Recipe Book",
-    "descriptionRecipeBook": "Cookbook, here you can consult, store, edit and delete your recipe.",
-    
-    "deskApp": "Desktop App",
-    "descriptionDeskApp": "App for the storage of existing invoices, manages 2 user levels",
+    "projects":{
+        "title": "Projects",
 
-    "service": "Web Services",
-    "descriptionService": "Service Company, select the language (English or Spanish) and make your request through a form.",
-    
-    "caipa": "Informative Web",
-    "descriptionCaipa": "CAIPA Táchira, Institution that attends to the Autistic Spectrum.",
-    
-    "amazonCopy": "Amazon Home Page",
-    "descriptionAmazonCopy": "Recreation of Amazon home page, you can add products to cart",
-    
-    "bazaar":"Pet Store",
-    "descriptionBazaar":"Login with google or github, add products to cart and purchase them",
+        "recipeBook": "Recipe Book",
+        "descriptionRecipeBook": "Cookbook, here you can consult, store, edit and delete your recipe.",
+        
+        "deskApp": "Desktop App",
+        "descriptionDeskApp": "App for the storage of existing invoices, manages 2 user levels",
 
-    "code": "Code",
-    "view": "View",
-    "download": "download"
-}
+        "service": "Web Services",
+        "descriptionService": "Service Company, select the language (English or Spanish) and make your request through a form.",
+        
+        "caipa": "Informative Web",
+        "descriptionCaipa": "CAIPA Táchira, Institution that attends to the Autistic Spectrum.",
+        
+        "amazonCopy": "Amazon Home Page",
+        "descriptionAmazonCopy": "Recreation of Amazon home page, you can add products to cart",
+        
+        "bazaar":"Pet Store",
+        "descriptionBazaar":"Login with google or github, add products to cart and purchase them",
+
+        "code": "Code",
+        "view": "View",
+        "download": "download"
+    },
+
+    "contact":{
+        "title":"Any questions?",
+        "name":"Name",
+        "message":"Message",
+        "send":"Submit",
+
+        "invalidName": "The name is required, please fill in the field.",
+        "invalidEmail":"The email is required, please fill in the field.",
+        "isValidEmailValue" : "Please, enter a valid email address.",
+        "invalidMessage":"The message is required, please fill in the field.",
+
+        "emailSend":"Email sent successfully!",
+        "errorSendEmail":"There was an error sending your email, please try again later."
+    }
 }

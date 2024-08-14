@@ -35,6 +35,21 @@
         "view": "Vista",
         "download": "descargar"
 
+    },
+
+    "contact":{
+        "title":"¿Alguna pregunta?",
+        "name":"Nombre",
+        "message":"Mensaje",
+        "send":"Enviar",
+
+        "invalidName": "El nombre es obligatorio, por favor rellene el campo.",
+        "invalidEmail":"El email es obligatorio, por favor rellene el campo.",
+        "isValidEmailValue" : "Por favor, introduzca una dirección de correo electrónico válida.",
+        "invalidMessage":"El mensaje es obligatorio, por favor rellene este campo.",
+
+        "emailSend":"Email enviado correctamente",
+        "errorSendEmail":"Se ha producido un error al enviar tu email, inténtelo de nuevo más tarde."
     }
 
 }
