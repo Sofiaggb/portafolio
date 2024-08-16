@@ -6,7 +6,7 @@ import Toggle from '../components/Toggle'
 
 import { useTranslation } from 'react-i18next'
 import About from '../components/AboutMe'
-import Contact from '../components/contact'
+import Contact from '../components/Contact'
 
 export default function HomePage() {
     const { t } = useTranslation()
