@@ -6,7 +6,7 @@ export default function Footer() {
                 <div className="mt-1 border-t border-gray-200 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-4">
                     <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
                         <li>
-                            &copy; Sofia Gaitán 2023
+                            &copy; Sofia Gaitán 2024
                         </li>
 
                         <li>
