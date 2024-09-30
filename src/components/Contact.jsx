@@ -96,16 +96,19 @@ const Contact = () => {
                 <div className="min-[500px]:flex mb-4 ">
                     <input ref={nameRef} type="text" placeholder={t("contact.name")} name="name"
                         className="w-full bg-stone-300 border 
-                rounded-full py-2 px-4  max-[500px]:mb-4 min-[500px]:mr-4 focus:outline-none focus:border-stone-400" />
+                rounded-full py-2 px-4  max-[500px]:mb-4 min-[500px]:mr-4 focus:outline-none focus:border-stone-400" 
+                required/>
 
                     <input ref={emailRef} type="text" placeholder="Email" name="email"
                         className="w-full bg-stone-300 border 
-                rounded-full py-2 px-4 min-[500px]:ml-4 focus:outline-none focus:border-stone-400 " />
+                rounded-full py-2 px-4 min-[500px]:ml-4 focus:outline-none focus:border-stone-400 "
+                required />
                 </div>
                 <div className="mb-6">
                     <textarea ref={messageRef} type="text" placeholder={t("contact.message")} name="message"
                         className="w-full min-h-[60px] max-h-[200px] bg-stone-300 border 
-                rounded-3xl py-2 px-4 focus:outline-none focus:border-stone-400 0" />
+                rounded-3xl py-2 px-4 focus:outline-none focus:border-stone-400 0" 
+                required/>
                 </div>
 
                 <button type="submit"

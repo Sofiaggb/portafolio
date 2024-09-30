@@ -1,4 +1,4 @@
-import sofia from '../assets/images/sofia.png'
+import sofia from '../assets/images/sggb.png'
 import CardsTecnologias from '../components/cardsTecnologias'
 import CardsProyects from '../components/CardsProyects'
 import Footer from '../components/Footer'
@@ -20,7 +20,7 @@ export default function HomePage() {
                  lg:w-96 h-72 md:h-80 bg-rose  rounded-t-full">
                     {/* // className=" max-md:m-auto max-md:mt-12 max-md:mb-6 relative w-80 lg:w-96 h-72 md:h-80 rose  rounded-t-full"> */}
                     <img src={sofia} alt="Sofía Gaitán" 
-                    className="absolute  bottom-0 right-0 w-64 md:w-72 object-cover" />
+                    className="absolute  bottom-0 right-0 w-full object-cover" />
                 </div>
 
                 <div className="max-md:m-auto relative w-full md:w-2/4 md:ml-16 lg:m-6 
