@@ -11,7 +11,7 @@
     },
 
     "projects":{
-        "title": "Proyectos",
+        "title": "Experiencia",
 
         "recipeBook": "Recetario",
         "descriptionRecipeBook": "Recetario de cocina, aquí puedes consultar, almacenar, editar y borrar tu receta.",
@@ -19,7 +19,7 @@
         "deskApp": "App de Escritorio",
         "descriptionDeskApp": "App para el almacenamiento de las facturas existentes, maneja 2 niveles de usuario",
 
-        "service": "Web de Servicios",
+        "service": "Usabuilders llc",
         "descriptionService": "Empresa de servicios, selecciona el idioma (inglés o español) y realiza tu requerimiento a través de un formulario",
         
         "caipa": "Web Informativa",

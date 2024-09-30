@@ -11,7 +11,7 @@
     },
 
     "projects":{
-        "title": "Projects",
+        "title": "Experience",
 
         "recipeBook": "Recipe Book",
         "descriptionRecipeBook": "Cookbook, here you can consult, store, edit and delete your recipe.",
@@ -19,7 +19,7 @@
         "deskApp": "Desktop App",
         "descriptionDeskApp": "App for the storage of existing invoices, manages 2 user levels",
 
-        "service": "Web Services",
+        "service": "Usabuilders llc",
         "descriptionService": "Service Company, select the language (English or Spanish) and make your request through a form.",
         
         "caipa": "Informative Web",
