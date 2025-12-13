@@ -44,7 +44,7 @@ export default function HomePage() {
                 {t("projects.title")}
             </h1>
 
-            <div className="mt-4 flex items-center container mx-auto">
+            {/* <div className="mt-4 flex items-center container mx-auto">
                 <ul className="space-y-4">
                     <li className="flex flex-col gap-2  ">
                         <p className="flex items-center gap-2">
@@ -66,6 +66,42 @@ export default function HomePage() {
                 </ul>
             </div>
 
+            <h2 className='mt-10 text-3xl max-[400px]:text-2xl text-center font-moserrat'>
+               Proyectos desarrollados de forma independiente  {/* {t("projects.title")} 
+            </h2> */}
+
+            <div className="mt-4 flex items-center container mx-auto">
+                <ul className="space-y-6"> {/* Aumenté el espacio entre items */}
+                    {/* Primer trabajo - Actual */}
+                    <li className="flex flex-col gap-2">
+                        <p className="flex items-center gap-2">
+                            <span className="relative flex items-center">
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-red-300"></span>
+                                <span className="ml-2"> {t("projects.currently")}</span>
+                            </span>
+                            <a className="font-semibold hover:text-blue-900 transition-colors duration-200 hover:underline underline-offset-2"
+                                href="https://norteconecta.net/home/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                {t("projects.cablenorte")}
+                            </a>
+                        </p>
+                        <p className="text-gray-700 text-sm ml-5">
+                            {t("projects.cablenorteIDid")}
+                        </p>
+                    </li>
+
+                    {/* Segundo trabajo - Anterior (con diferente color) */}
+                    <li className="flex flex-col gap-2">
+                        <p className="flex items-center gap-2">
+                            <span className="relative flex items-center">
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-300"></span>
+                                <span className="ml-2">{t("projects.freelance")}  </span>
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
 
             <div className="flex items-center justify-center container mx-auto">
                 <div className="grid  grid-cols-1  lg:grid-cols-3  lg:m-4  ">
