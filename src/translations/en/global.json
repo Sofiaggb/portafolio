@@ -13,6 +13,10 @@
     "projects":{
         "title": "Experience",
 
+        "currently": "Currently a full stack programmer at",
+        "cablenorte": "Cablenorte | National Telecommunications Company in Venezuela ",
+        "cablenorteIDid": "Development of internal systems, business modules and network infrastructure.",
+
         "recipeBook": "Recipe Book",
         "descriptionRecipeBook": "Cookbook, here you can consult, store, edit and delete your recipe.",
         
